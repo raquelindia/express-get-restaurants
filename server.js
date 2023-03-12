@@ -4,7 +4,7 @@ const router = express.Router();
 const {Restaurant} = require("./models/index")
 const {sequelize} = require("./db");
 
-const port = 3002;
+const port = 3003;
 app.use(express.json())
 
 sequelize.sync();
